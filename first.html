@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS3 Property Basic</title>
+    <style>
+        body{
+            margin: 0 auto;
+            padding: 0;
+        }
+       .clear{
+            clear: both;
+        } 
+        header{
+            width: 1500px;
+            height: 80px;
+            margin-top: 10px;
+            /* border:solid 1px rgb(34, 0, 255); */
+        }
+        #logo{
+            float: left;
+            width: 200px;
+            margin-left: 20px;
+            /* margin-top: 10px; */
+            
+        }
+        #menu{
+            float: right;
+            margin-top: 30px;
+            margin-right: 0px;
+            /* border:solid 1px rgb(34, 0, 255); */
+            
+        }
+        #mainmenu li{
+            display: inline;
+            list-style-type: none;
+            text-align: right;
+            width: 800px;
+            margin-right: 15px;
+            font-family: 'Pretendard-Bold'
+           
+            
+        }
+        .info{
+            width: 1450px;
+            height: 1000px;
+            margin-top: 10px;
+            margin-left: 30px;
+            /* border:solid 1px rgb(34, 0, 255); */
+        }
+        #firstinfo{
+            margin-top: 220px;
+            margin-right: 20px;
+            width: 650px;
+            float: right;
+            /* border:solid 1px rgb(0, 255, 140);  */
+        }
+        #title{
+            float: left;
+            margin-top: 150px;
+            margin-left: 40px;
+            width: 600px;
+            /*border:solid 1px rgb(255, 0, 0); */
+        }
+        .sum{
+            font-family: "Pretendard-Bold";
+            line-height: 1.5em;
+            font-size: 18px;
+            /* border:solid 1px rgb(204, 0, 255);  */
+        }
+        #img{
+            display: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: rgb(0, 17, 255);
+            transition: 0.3s;
+        }
+        
+        @font-face {
+        font-family: 'Pretendard-Bold';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        }
+        @font-face {
+         font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        footer{
+            width: 1450px;
+            height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            /*border:solid 1px red;*/
+        }
+        #footerinfo{
+            float: left;
+            margin-top: 30px;
+            color: rgb(140, 140, 140);
+            font-family: Pretend-Regular;
+            font-size: 12px;
+            margin-left: 20px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo"><a href="main.html"><img src="logo.png" width="120"></a></div>
+        <nav id="menu">
+            <ul id="mainmenu">
+                <a href="first.html"><li>정의&nbsp;&nbsp;</li></a>
+                <a href="second.html"><li>환경에 미치는 영향&nbsp;&nbsp;</li></a>
+                <a href="third.html"><li>우리의 노력&nbsp;&nbsp;</li></a>
+                <a href="fourth.html"><li>국가의 노력&nbsp;&nbsp;</li></a>
+                <a href="last.html"><li>기업의 사례&nbsp;&nbsp;</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class= "clear"></div>
+    <section class="info">
+    <div id="title">
+        <img src="fast.png" width="300px"><br>
+        <img src="fashion.png" width="600px">
+    </div>
+    <div id="firstinfo">
+        <p class='sum'>
+            패스트 패션(Fast Fashion)이란 생산부터 유통까지의 소요시간을 최소화하여<br>
+            유행에 맞는 의류를 빠르게 공급하는 것을 말한다. <br>
+            일반적인 패션 브랜드는 계절에 따라 1년에 4번 기획 및 생산을 진행하는 반면,<br>
+            패스트 패션 브랜드는 1~2주마다 새로운 의류를 생산한다. <br>
+            패스트 패션을 만드는 브랜드는 디자인, 기획, 생산, 유통, 판매 등을 직접 관리하기 때문에, <br>
+            최신 트렌드에 맞는 옷을 저렴한 가격에 제공할 수 있게 된다. <br>
+        </p>
+    </div>
+    
+    </section>
+    <footer>
+        <div id="footerinfo">
+            <p>계원예술대학교 디지털미디어디자인과<br>
+                22361008 권나현
+            </p>
+        </div>
+        <div class= "clear"></div>
+    </footer>
+</body>
+</html>
