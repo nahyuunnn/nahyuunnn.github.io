@@ -67,17 +67,6 @@
             display: inline;
             margin-left: 80px;
         }
-       
-        #main_img{
-            width: 100px;
-            height: 600px;
-            background-repeat: no-repeat;
-            background-position: 20px;
-            margin-top: 200px;
-            margin-left: 350px
-            
-        }
-
         a:link {
             color : black(0, 0, 0);
             text-decoration: none;
@@ -101,6 +90,29 @@
         font-weight: 400;
         font-style: normal;
         }
+        #wrap{
+            width: 1140px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: red;
+            padding: 100px;
+        }
+        img{
+            display: block;
+        }
+        
+        .image{
+            display: inline-block;
+            margin-right: 70px;
+        }
+        .image:last-child{
+            margin-right: 0px;
+        }
+        .imageBox{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
     </style>
 </head>
 <body>
@@ -119,10 +131,19 @@
             </ul>
         </nav>
     </header>
-    <section id="main_img">
-        <img src="mainimg.png" alt="">
-    </section>
-
+    <div id="wrap">
+        <div class="imageBox">
+            <div class="image"><img src="sea.png" alt=""></div>
+            <div class="image"><img src="ohrora.png" alt=""></div>
+            <div class="image"><img src="tour.png" alt=""></div>
+        </div>
+        <div class="imageBox">
+            <div class="image"><img src="sky.png" alt=""></div>
+            <div class="image"><img src="concert.png" alt=""></div>
+            <div class="image"><img src="english.png" alt=""></div>
+        </div>
+    </div>
+   
     <div class="clear"></div>
     <footer>
         <div id="footer_box">

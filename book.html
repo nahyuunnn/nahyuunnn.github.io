@@ -54,7 +54,7 @@
         }
         #menus{
             float: right;
-            /* border: solid 1px red; */
+            /* border: solid 1px rgb(13, 255, 0); */
         }
         #main_menu{
             margin-top: 40px;
@@ -67,17 +67,6 @@
             display: inline;
             margin-left: 80px;
         }
-       
-        #main_img{
-            width: 100px;
-            height: 600px;
-            background-repeat: no-repeat;
-            background-position: 20px;
-            margin-top: 200px;
-            margin-left: 350px
-            
-        }
-
         a:link {
             color : black(0, 0, 0);
             text-decoration: none;
@@ -101,6 +90,29 @@
         font-weight: 400;
         font-style: normal;
         }
+        #firstinfo{
+            margin-top: 200px;
+            margin-left: 170px;
+            width: 500px;
+            float: left;
+        }
+        #title{
+            float: left;
+            margin-top: 150px;
+            margin-left: 250px;
+            margin-bottom: 150px;
+        }
+        .sum{
+            font-family: "Pretendard-Regular";
+            line-height: 2em;
+            font-size: 15px;
+            margin-top: 30px;
+        }
+       .summary{
+        font-family: 'Pretendard-Bold';
+        font-size: 20px;
+        margin-bottom: 30px;
+       }
     </style>
 </head>
 <body>
@@ -109,7 +121,6 @@
             <a href="index.html"><img src="logo.png" width="100px"></a>
         </div>
         <nav id="menus">
-            
             <ul id="main_menu">
                 <a href="movie.html"><li>영화</li></a>
                 <a href="music.html"><li>노래</li></a>
@@ -119,10 +130,17 @@
             </ul>
         </nav>
     </header>
-    <section id="main_img">
-        <img src="mainimg.png" alt="">
-    </section>
-
+        <div id="title">
+            <img src="bookimg.jpeg" width="350px">
+        </div>
+        <div id="firstinfo"> <p class="summary">모순</p>
+            <hr style="border: solid 2px black;">
+            <p class='sum'>
+                <b>줄거리</b> : 『모순』의 주인공은 25세의 미혼여성 안진진. 시장에서 내복을 팔고 있는 억척스런 어머니와 행방불명의 상태로 떠돌다 가끔씩 귀가하는 아버지, 그리고 조폭의 보스가 인생의 꿈인 남동생이 가족이다. 여기에 소설의 중요 인물로 등장하는 이모는 주인공 안진진의 어머니와는 일란성 쌍둥이로 태어났지만 인생행로는 사뭇 다르다. 부유한 이모는 지루한 삶에 진력을 내고 있고 가난한 어머니는 처리해야 할 불행들이 많아 지루할 틈이 없다. 주인공 안진진은 극단으로 나뉜 어머니와 이모의 삶을 바라보며 모순투성이인 이 삶을 어떻게 이해해야 하는지 심각하게 고민하기 시작한다. <br><br><br>
+                <b>인상깊은 구절</b> : "이십대의 젊음은 어떤 조건과 싸워 이길 수 있는 천하무적의 무기이니까"
+            </p>
+        </div>
+    
     <div class="clear"></div>
     <footer>
         <div id="footer_box">
